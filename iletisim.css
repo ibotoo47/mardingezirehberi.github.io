@@ -1,0 +1,115 @@
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+img{
+    width: 100%;
+}
+
+section{
+    padding: 100px 0;
+    background: #122e44;
+}
+
+.section_title{
+    margin-bottom: 30px;
+}
+
+.section_title h2{
+    position: relative;
+    user-select: none;
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    transition: all .5s ease-in-out;
+}
+.section_title h2:hover{
+    background-color: #24caac;
+}
+.inner_testi{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    color: #fff;
+}
+.child_testi{
+    flex-basis: 46%;
+    margin-bottom:30px;
+}
+.testi_img{
+    margin-bottom: 20px;
+}
+.testi_img img:hover{
+    border: 4px solid black;
+    transform: scale(1.1);
+    border: none;
+    transition: all .5s ease;
+}
+.test_highlight{
+    color: #24caac;
+    margin: 10px 0;
+    display: inline-block;
+}
+.test_highlight:hover{
+    text-decoration: underline;
+}
+.inner_contact{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 80%;
+}
+.child_contact{
+    flex-basis: 45%;
+}
+.child_contact form{
+    padding: 50px 40px;
+    background: #2F363E;
+    border-radius: 5px;
+}
+.child_contact form input,textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom:20px;
+    background: #24292d;
+    border: none;
+    resize: none;
+    border-radius: 25px;
+    transition: .3s ease-in;
+}
+.child_contact form input,textarea:focus{
+    color: #fff;
+}
+.child_contact form input:focus{
+    letter-spacing: 1px;
+}
+.child_contact form textarea:focus{
+    letter-spacing: 1px;
+}
+.child_contact form input:last-child{
+    margin-bottom: 0;
+    background: #24caac;
+    border: 1px solid #24caac;
+    transition: all .3s;
+}
+.child_contact form input:last-child:hover{
+    background: transparent;
+    color: #fff;
+}
